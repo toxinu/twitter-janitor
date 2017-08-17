@@ -1,7 +1,11 @@
 # twitter-janitor
 
-A simple script (AWS Lambda compatible) that delete `likes` and every `statuses` 
+A simple python script (AWS Lambda compatible) that delete `likes` and every `statuses` 
 older than 3 months from your Twitter account.
+
+## Requirements
+
+- Python 3.6
 
 ## Setup
 
