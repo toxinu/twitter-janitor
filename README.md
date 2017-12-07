@@ -18,4 +18,4 @@ older than 3 months from your Twitter account.
 - Create a `virtualenv` and install `requirements.txt`
 - Run `python main.py`
 
-If you want to deploy on AWS Lambda, run `make package` to have your `.zip` int `./build` directory.
+If you want to deploy on AWS Lambda, run `make package` to have your `.zip` in `./build` directory.
