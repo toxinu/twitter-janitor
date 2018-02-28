@@ -48,7 +48,7 @@ def destroy_statuses(api):
                 statuses_deleted_count += 1
                 print('Unretweet... "{} - {}"'.format(
                     status.created_at, status.text.replace('\n', '')))
-                api.DestroyStatus(status)
+                api.DestroyStatus(status.id)
         else:
             if lastest_id == status.id:
                 break
